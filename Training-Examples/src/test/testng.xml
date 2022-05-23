@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestExample-TestNG" >
+    <test name="test with testNG">
+        <parameter name="first-name" value="Sri"></parameter>
+        <packages>
+            <package name="">
+                <include name=""/>
+                <exclude name="">
+
+                </exclude>
+            </package>
+        </packages>
+        <classes>
+            <class name="org.example.AppTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
